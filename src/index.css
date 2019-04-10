@@ -1,0 +1,10 @@
+body {
+    color: red;
+}
+
+#avator {
+    background-image: url("./img/cyl.png");
+    width: 348px;
+    height: 189px;
+    transform: translateX(50%)
+}

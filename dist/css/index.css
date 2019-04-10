@@ -1,0 +1,11 @@
+body {
+    color: red;
+}
+
+#avator {
+    background-image: url(image/9354776fc6304a6fd54df69f8ce888d2.png);
+    width: 348px;
+    height: 189px;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%)
+}

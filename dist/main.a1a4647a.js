@@ -1,0 +1,9 @@
+!function(n){var t={};function o(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return n[e].call(r.exports,r,r.exports,o),r.l=!0,r.exports}o.m=n,o.c=t,o.d=function(e,r,n){o.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:n})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(r,"a",r),r},o.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},o.p="",o(o.s="./src/main.js")}({"./src/img/cyl.png":
+/*!*************************!*\
+  !*** ./src/img/cyl.png ***!
+  \*************************/
+/*! no static exports found */function(module,exports,__webpack_require__){eval('module.exports = __webpack_require__.p + "image/9354776fc6304a6fd54df69f8ce888d2.png";\n\n//# sourceURL=webpack:///./src/img/cyl.png?')},"./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/*! no static exports found */function(module,exports,__webpack_require__){eval('\r\n\r\n//会返回一个打包后的地址\r\n\r\nconst src = __webpack_require__(/*! ./img/cyl.png */ "./src/img/cyl.png");\r\n\r\nconst img = new Image();\r\nimg.src = src;\r\n\r\ndocument.getElementById("root").appendChild(img);\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/main.js?')}});
